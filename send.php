@@ -16,8 +16,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.zoho.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'your_email@domain.com';
-        $mail->Password   = 'your_app_password';
+        $mail->Username   = 'mootnon@recoverymlbb.web.id';
+        $mail->Password   = 'H3wu7EqKzcG3';
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
