@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Sender</title>
+</head>
+<body>
+    <h2>Send Email</h2>
+    <form action="send.php" method="POST">
+        <label>To:</label><br>
+        <input type="email" name="to" required><br><br>
+        <label>Subject:</label><br>
+        <input type="text" name="subject" required><br><br>
+        <label>Message:</label><br>
+        <textarea name="message" rows="5" cols="30" required></textarea><br><br>
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
